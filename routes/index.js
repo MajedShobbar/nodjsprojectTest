@@ -14,4 +14,8 @@ router.get('/welcome', function(req, res, next) {
     res.render('come1', { title: 'Majed Shobbar' });
 });
 
+router.post('/readnameandrespond', function(req, res, next) {
+    res.send('Hello Majed Nodjs  Test');
+});
+
 module.exports = router;
