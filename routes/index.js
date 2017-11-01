@@ -15,7 +15,7 @@ router.get('/welcome', function(req, res, next) {
 });
 
 router.post('/readnameandrespond', function(req, res, next) {
-    res.send('Hello Majed Nodjs  POST Test');
+    res.send('Hello ' + req.namePar);
 });
 
 module.exports = router;
