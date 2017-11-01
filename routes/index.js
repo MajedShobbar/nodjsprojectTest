@@ -15,7 +15,7 @@ router.get('/welcome', function(req, res, next) {
 });
 
 router.post('/readnameandrespond', function(req, res, next) {
-    res.send('Hello ' + req.namePar);
+    res.send('Hello ' + req.body.namePar);
 });
 
 module.exports = router;
