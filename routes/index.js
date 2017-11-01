@@ -18,4 +18,8 @@ router.post('/readnameandrespond', function(req, res, next) {
     res.send('Hello Majed Nodjs  Test');
 });
 
+router.get('/readnameandrespond', function(req, res, next) {
+    res.send('Hello Majed Nodjs  Test');
+});
+
 module.exports = router;
